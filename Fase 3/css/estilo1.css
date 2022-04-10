@@ -1,0 +1,48 @@
+header{
+    background-color:#22577E;
+    color:cornsilk;
+    text-align: center;
+}
+section{
+    background-color: #95D1CC;
+    color:midnightblue;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+article{
+    grid-column: 1/4;
+}
+aside{
+    background-color: #C1F8CF;
+    padding: 30px;
+    grid-column: 4/5;
+}
+footer{
+    background-color:#FAFFAF;
+    color:#434343;
+    text-align: right;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+ul, ol{
+    list-style: none;
+}
+
+nav li a{
+    background-color:#5584AC;
+    color:cornsilk;
+    text-decoration: none;
+    text-align: left;
+    padding: 5px 5px;
+    display:block;
+}
+
+nav li a:hover{
+    background-color: 434343;
+}
+nav> li{
+    float:left;
+
+}
